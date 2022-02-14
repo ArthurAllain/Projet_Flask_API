@@ -110,7 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 
-API_Flask/*
+API_venv/*
 
 # Spyder project settings
 .spyderproject
