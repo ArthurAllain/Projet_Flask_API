@@ -8,3 +8,6 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return ("Hello World!")
+
+#run the application
+app.run(debug=True)
