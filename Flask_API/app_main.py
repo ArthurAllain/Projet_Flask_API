@@ -1,5 +1,6 @@
 from logging import root
 from flask import Flask
+from flask import request
 
 
 # creation de l'application
@@ -11,6 +12,7 @@ def home():
 
 @app.route('/create')
 def create():
+    url = request.args.get('url')
     return
 
 @app.route('/read')
