@@ -1,10 +1,13 @@
 from logging import root
 from flask import Flask
 from flask import request
-
+from pysondb import db
 
 # creation de l'application
 app = Flask(__name__)
+
+# connection de la DB Pyson
+apidb=db.getDb('flask_api_db.json')
 
 @app.route('/')
 def home():
@@ -13,7 +16,7 @@ def home():
 @app.route('/create')
 def create():
     url = request.args.get('url')
-    return
+    return url
 
 @app.route('/read')
 def read():
