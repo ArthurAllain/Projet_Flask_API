@@ -1,6 +1,6 @@
-from bs4 import BeautifulSoup
+import bs4
 from requests import get
-import pandas as pd
+import pandas as pdpython3
 
 url = 'https://fr.wikipedia.org/wiki/Representational_state_transfer'
 
@@ -8,9 +8,23 @@ response = get(url)
 html_soup = BeautifulSoup(response.text, 'html.parser')
 content = html_soup.main.get_text()
 
-content.split().value_counts()
+content_alpha = ""
 
-c_split = content.split()
+for char in content:
+  if ord(char) >= 65 and ord(char) <= 90:
+    content_alpha += char
+  elif ord(char) >= 97 and ord(char) <= 122:
+    content_alpha += char
+  elif ord(char) >= 192 and ord(char) <= 246:
+    content_alpha += char
+  elif ord(char) == 32:
+    content_alpha += char
+  elif ord(char) == 10:
+    content_alpha += char
+  else:
+    content_alpha += " "
+
+c_split = content_alpha .split()
 
 w_count= {}
 for wd in c_split:
@@ -19,3 +33,4 @@ for wd in c_split:
   else:
     w_count[wd]= 1
 
+print(w_count)
