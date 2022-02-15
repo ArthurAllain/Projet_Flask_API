@@ -1,6 +1,6 @@
-from bs4 import BeautifulSoup
+import bs4
 from requests import get
-import pandas as pd
+import pandas as pdpython3
 
 url = 'https://fr.wikipedia.org/wiki/Representational_state_transfer'
 
