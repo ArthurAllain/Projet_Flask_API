@@ -67,6 +67,46 @@
             "\u00e0": 8
          },
          "id": 178431857663100708
+      },
+      {
+         "name": "www.pincemi.com",
+         "type": "entry",
+         "words": {
+            "crise": 0,
+            "des": 8,
+            "du": 4,
+            "en": 9,
+            "et": 6,
+            "la": 11,
+            "le": 5,
+            "les": 8,
+            "pour": 5,
+            "pourquoi": 1,
+            "se": 3,
+            "ukraine": 0,
+            "\u00e0": 8
+         },
+         "id": 274290308213839248
+      },
+      {
+         "name": "www.newstuff.com",
+         "type": "entry",
+         "words": {
+            "crise": 0,
+            "des": 8,
+            "du": 4,
+            "en": 9,
+            "et": 6,
+            "la": 11,
+            "le": 5,
+            "les": 8,
+            "pour": 5,
+            "pourquoi": 1,
+            "se": 3,
+            "ukraine": 0,
+            "\u00e0": 8
+         },
+         "id": 589125371489557935
       }
    ]
 }
