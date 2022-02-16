@@ -1,19 +1,72 @@
 {
    "data": [
       {
-         "name": "pysondb",
-         "type": "DB",
-         "id": 747910518476281332
+         "name": "template4schema",
+         "type": "template",
+         "words": {
+            "Toto": 1
+         },
+         "id": 331956375570876206
       },
       {
-         "name": "py_cli",
-         "type": "CLI",
-         "id": 175568333193855297
+         "name": "www.fifi.com",
+         "type": "entry",
+         "words": {
+            "crise": 0,
+            "des": 8,
+            "du": 4,
+            "en": 9,
+            "et": 6,
+            "la": 11,
+            "le": 5,
+            "les": 8,
+            "pour": 5,
+            "pourquoi": 1,
+            "se": 3,
+            "ukraine": 0,
+            "\u00e0": 8
+         },
+         "id": 336538665035037207
       },
       {
-         "name": "py_cli",
-         "type": "CLI",
-         "id": 804652841862506583
+         "name": "www.lala.com",
+         "type": "entry",
+         "words": {
+            "crise": 0,
+            "des": 8,
+            "du": 4,
+            "en": 9,
+            "et": 6,
+            "la": 11,
+            "le": 5,
+            "les": 8,
+            "pour": 5,
+            "pourquoi": 1,
+            "se": 3,
+            "ukraine": 0,
+            "\u00e0": 8
+         },
+         "id": 326422730306959226
+      },
+      {
+         "name": "www.lalaland.com",
+         "type": "entry",
+         "words": {
+            "crise": 0,
+            "des": 8,
+            "du": 4,
+            "en": 9,
+            "et": 6,
+            "la": 11,
+            "le": 5,
+            "les": 8,
+            "pour": 5,
+            "pourquoi": 1,
+            "se": 3,
+            "ukraine": 0,
+            "\u00e0": 8
+         },
+         "id": 178431857663100708
       }
    ]
 }

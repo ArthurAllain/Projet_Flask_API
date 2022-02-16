@@ -11,12 +11,15 @@ apidb=db.getDb('flask_api_db.json')
 
 @app.route('/')
 def home():
-    return ("app en fonction")
+    return ("API active")
 
-@app.route('/create')
+@app.route('/create', methods=['GET'])
 def create():
     url = request.args.get('url')
-    return url
+    # creation liste de tuples mots : décompte (placeholder actuellement)
+    vocabulary= {'crise': 0, 'des': 8, 'du': 4, 'en': 9, 'et': 6,  'la': 11, 'le': 5, 'les': 8, 'pour': 5,  'pourquoi': 1, 'se': 3, 'ukraine': 0, 'à': 8}
+    newid = apidb.add({"name": url,"type":"entry", "words":vocabulary})
+    return str(newid)
 
 @app.route('/read')
 def read():
