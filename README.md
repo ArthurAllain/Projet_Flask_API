@@ -36,8 +36,14 @@ L'identifiant est entré en aval de cette route après le signe "/".
 Par exemple : http://127.0.0.1:5000/delete/342076571809416181  
 
 ### Perspectives  
-
-#### Frontend
-Dans une optique d'amélioration nous avont développer une 2nde version du projet qui nécessite SQLite3 pour fonctionner.  
-Cette version utilise Bootstrap pour afficher Front-End au projet.  
+#### Nouvelles routes  
+Nous pourrions ajouter d'autres routes pour un update ou la rprésentation d'un arbre.  
+Nous pensons néanmoins avoir bien compris les possibilités du routage dans une application Flask.  
+#### Représentation et recherches d'arbres  
+Tous le membres de notre groupe ont passé un temps conséquent a faire des essais avec le module networkx.  
+Nous ne sommes par parvenus à produire une arbre binaire équilibré.  
+Nous avons néanmoins été fasciné par les possibilités de ce module et espérons avoir plus de temps pour le maîtriser.
+#### Frontend  
+Nous avons également développé une version du projet qui accède aux routes de l'API via un frontend.  
+Ce frontend utilise Bootstrap pour s'afficher et sqlite2 en backend.   
 Pour la lancer il faut activer le ./Flask_API_Bootstrap/main.py  
