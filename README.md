@@ -45,5 +45,5 @@ Nous ne sommes par parvenus à produire une arbre binaire équilibré.
 Nous avons néanmoins été fasciné par les possibilités de ce module et espérons avoir plus de temps pour le maîtriser.
 #### Frontend  
 Nous avons également développé une version du projet qui accède aux routes de l'API via un frontend.  
-Ce frontend utilise Bootstrap pour s'afficher et sqlite2 en backend.   
+Ce frontend utilise Bootstrap pour s'afficher et sqlite3 en backend.   
 Pour la lancer il faut activer le ./Flask_API_Bootstrap/main.py  
