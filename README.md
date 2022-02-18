@@ -1,10 +1,21 @@
 # Projet_Flask_API
 ## Groupe 7 : Anouar, Eric, Arthur
 
-Voici le résultat de notre projet de groupe API-REST  
+Voici le résultat de notre projet API-REST pour le groupe 7  
 
 ### Démarrage  
-Dans le repo il faut lancer les fichier ./Flask_API/app_main.py et ./Flask_API/get_bs_parse.py  
+Dans le repo il faut lancer le fichier de l'app ./Flask_API/app_main.py  
+
+### Route /create  
+Dans cette route on passe une url via le paramètre url d'une requete get.  
+Par exemple : 
+
+### Route /read 
+
+
+### Route /delete  
+
+
 
 ### Perspectives  
 Dans une optique d'amélioration nous avont développer une 2nde version du projet qui nécessite SQLite3 pour fonctionner.  
