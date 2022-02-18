@@ -15,17 +15,18 @@ https://dev.to/fredysomy/pysondb-a-json-based-lightweight-database-for-python-ij
 
 ### Démarrage  
 Dans le repo il faut lancer le fichier de l'app ./Flask_API/app_main.py  
+On verra en http://127.0.0.1:5000/ sur le navigateur le commentaire "API active".
 
 ### Route /create  
 Dans cette route on passe une url via le paramètre url d'une requete get.  
-Par exemple : 
+Par exemple : http://127.0.0.1:5000/create?url=https://www.monde-diplomatique.fr/2022/02/TEURTRIE/64373
 
 ### Route /read 
-
+http://127.0.0.1:5000/read/794533705597869327  
 
 ### Route /delete  
 
-
+http://127.0.0.1:5000/delete/342076571809416181
 
 ### Perspectives  
 Dans une optique d'amélioration nous avont développer une 2nde version du projet qui nécessite SQLite3 pour fonctionner.  
