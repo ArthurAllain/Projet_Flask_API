@@ -4,7 +4,7 @@
 Voici le résultat de notre projet API-REST pour le groupe 7  
 
 ### Backend  
-J'ai utilisé me module Pyson pour créer un backend facile à mettre en oeuvre.  
+Nous avons utilisé le module Pyson pour créer un backend facile à mettre en oeuvre.  
 Essentiellement la base de données est située dans le fichier flask_api_db.json.  
 La base de données a été créée en ligne de commande avec l'instruction pysondb create flask_api_db.json.  
 Le schéma de la base de données est fixée par sa première entrée.  
