@@ -37,7 +37,7 @@ Par exemple : http://127.0.0.1:5000/delete/342076571809416181
 
 ### Perspectives  
 #### Nouvelles routes  
-Nous pourrions ajouter d'autres routes pour un update ou la rprésentation d'un arbre.  
+Nous pourrions ajouter d'autres routes pour un update de la base de données ou la représentation d'un arbre.  
 Nous pensons néanmoins avoir bien compris les possibilités du routage dans une application Flask.  
 #### Représentation et recherches d'arbres  
 Tous le membres de notre groupe ont passé un temps conséquent a faire des essais avec le module networkx.  
