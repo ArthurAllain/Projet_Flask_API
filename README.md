@@ -23,7 +23,7 @@ On verra en http://127.0.0.1:5000/ sur le navigateur le commentaire "API active"
 ### Route /create  
 Dans cette route on passe une url via le paramètre url d'une requete get.  
 Si la requête fonctionne, on récupère l'identifiant du nouvel objet ainsi crée.  
-En backend, la liste des mots parsés avec leur décompté est stockée et accessible via l'identifiant.  
+En backend, la liste des mots parsés avec leur décompte est stockée et accessible via l'identifiant.  
 Par exemple : http://127.0.0.1:5000/create?url=https://www.monde-diplomatique.fr/2022/02/TEURTRIE/64373
 
 ### Route /read  
@@ -32,10 +32,12 @@ Si la requête fonctionne, on récupère la liste des mots parsés avec leur dé
 Par exemple : http://127.0.0.1:5000/read/794533705597869327  
 
 ### Route /delete  
-L'identifiant est entré en aval de cette route après le signe "/".
+L'identifiant est entré en aval de cette route après le signe "/".  
 Par exemple : http://127.0.0.1:5000/delete/342076571809416181  
 
 ### Perspectives  
+
+#### Frontend
 Dans une optique d'amélioration nous avont développer une 2nde version du projet qui nécessite SQLite3 pour fonctionner.  
 Cette version utilise Bootstrap pour afficher Front-End au projet.  
 Pour la lancer il faut activer le ./Flask_API_Bootstrap/main.py  
