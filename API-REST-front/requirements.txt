@@ -1,0 +1,10 @@
+pip install -r requirements.txt
+pip install flask
+pip install scikit-learn
+pip install nltk
+pip install newspaper3k
+pip install pysondb
+pip install sqlalchemy
+pip install flask-sqlalchemy
+pip install sqlite3
+
